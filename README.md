@@ -10,7 +10,7 @@ The first integration is with Discord (as a bot), but the modular design makes i
 ## How it Works
 
 - **Zcash Integration**  
-  ZECAnony connects to the Zcash network (via [zcash-walletd](https://github.com/.../zcash-walletd)) and monitors a given wallet for incoming transactions.
+  ZECAnony connects to the Zcash network (via [zcash-walletd](https://github.com/james-katz/zcash-walletd)) and monitors a given wallet for incoming transactions.
   Each Zcash shielded transaction can carry a **512-byte encrypted memo**.  
   Once decrypted, ZECAnony extracts the memo text.
 
@@ -49,7 +49,7 @@ The first integration is with Discord (as a bot), but the modular design makes i
 
 1. Clone the Zcash wallet backend:  
    ```bash
-   git clone https://github.com/.../zcash-walletd
+   git clone git clone https://github.com/james-katz/zcash-walletd
 
 2. Install nj-cli (one-time step):
 
@@ -68,7 +68,7 @@ nj-cli build --release
 
 ```bash
 
-git clone https://github.com/ADICIONAR_LINK_DO_REPOSITORIO
+git clone git clone https://github.com/Paow4n/ZECAnony
 cd ZECAnony
 ```
 
