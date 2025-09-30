@@ -75,7 +75,7 @@ nj-cli build --release
 
 ```bash
 
-git clone git clone https://github.com/Paow4n/ZECA
+git clone https://github.com/Paow4n/ZECA
 cd ZECA
 ```
 
