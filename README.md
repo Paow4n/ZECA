@@ -18,6 +18,11 @@ The first integration is with Discord (as a bot), but the modular design makes i
   The memo is then broadcast to one or more connected platforms.  
   For example, with the Discord integration, messages appear in real time inside a chosen Discord channel.  
 
+<div align="center">
+<img src="https://github.com/user-attachments/assets/c79312fd-1d97-41ba-9b8d-f3a03ee02bde" width="600px" />
+</div>
+
+
 ---
 
 ## Use Cases
@@ -50,7 +55,7 @@ The first integration is with Discord (as a bot), but the modular design makes i
 1. Clone the Zcash wallet backend:  
 
 ```bash
-git clone git clone https://github.com/james-katz/zcash-walletd
+git clone https://github.com/james-katz/zcash-walletd
 ```
 
 2. Install nj-cli (one-time step):
@@ -86,14 +91,20 @@ cp -r ../zcash-walletd/js/dist ./dist
 cp sample.env .env
 ```
 
-7. Setup the database:
+7. Run npm install:
+
+```bash
+npm install
+```
+
+8. Setup the database:
 
 ```bash
 node sync_db.js
 ```
 
 
-8. Run the bot:
+9. Run the bot:
 
 ```bash
 node index.js
